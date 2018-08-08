@@ -1,0 +1,7 @@
+clouds:
+- aws: ap-northeast-3
+environmentType: sandbox
+kind: blueprint
+applications:
+- fasty
+spec_version: 1

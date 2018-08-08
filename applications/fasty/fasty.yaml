@@ -1,0 +1,29 @@
+configuration:
+  healthcheck:
+    script: fasty-hc.sh
+    timeout: 1000
+  initialization:
+    script: fasty-cm.sh
+  start:
+    script: fasty-cm-command.sh
+source:
+  image:
+    docker_image:
+    - name: node:6
+      tag: latest
+    ami:
+    - id: ami-f90a4880
+      region: eu-west-1
+    - id: ami-f4f21593
+      region: eu-west-2
+    - id: ami-925144f2
+      region: us-west-1
+  os_type: linux
+infrastructure:
+  connectivity:
+    external:
+    - port_info:
+        port: 3000
+        path: ''
+kind: application
+spec_version: 1

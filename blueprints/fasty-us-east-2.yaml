@@ -1,0 +1,7 @@
+clouds:
+- aws: us-east-2
+environmentType: sandbox
+kind: blueprint
+applications:
+- fasty
+spec_version: 1

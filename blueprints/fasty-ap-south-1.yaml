@@ -1,0 +1,7 @@
+clouds:
+- aws: ap-south-1
+environmentType: sandbox
+kind: blueprint
+applications:
+- fasty
+spec_version: 1
