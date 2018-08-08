@@ -16,8 +16,6 @@ source:
       region: ap-northeast-1
     - id: ami-467acf28
       region: ap-northeast-2
-    - id: 
-      region: ap-northeast-3
     - id: ami-188fba77
       region: ap-south-1
     - id: ami-51a7aa2d
