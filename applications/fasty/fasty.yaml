@@ -44,6 +44,10 @@ source:
       region: us-west-2
   os_type: linux
 infrastructure:
+  compute:
+    spec:
+      aws:
+        instance_type: t2.micro
   connectivity:
     external:
     - port_info:
