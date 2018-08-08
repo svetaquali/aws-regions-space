@@ -12,12 +12,38 @@ source:
     - name: node:6
       tag: latest
     ami:
+    - id: ami-6bb7d086
+      region: ap-northeast-1
+    - id: ami-467acf28
+      region: ap-northeast-2
+    - id: 
+      region: ap-northeast-3
+    - id: ami-188fba77
+      region: ap-south-1
+    - id: ami-51a7aa2d
+      region: ap-southeast-1
+    - id: ami-47c21a25
+      region: ap-southeast-2
+    - id: ami-db9e1cbf
+      region: ca-central-1
+    - id: ami-de8fb135
+      region: eu-central-1
     - id: ami-f90a4880
       region: eu-west-1
     - id: ami-f4f21593
       region: eu-west-2
+    - id: ami-20ee5e5d
+      region: eu-west-3
+    - id: ami-8eecc9e2
+      region: sa-east-1
+    - id: ami-759bc50a
+      region: us-east-1
+    - id: ami-5e8bb23b
+      region: us-east-2
     - id: ami-925144f2
       region: us-west-1
+    - id: ami-ba602bc2
+      region: us-west-2
   os_type: linux
 infrastructure:
   connectivity:
