@@ -12,7 +12,7 @@ source:
     - name: node:6
       tag: latest
     ami:
-    - id: ami-6bb7d086
+    - id: ami-940cdceb
       region: ap-northeast-1
     - id: ami-467acf28
       region: ap-northeast-2
