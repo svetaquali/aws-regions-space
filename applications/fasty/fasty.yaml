@@ -9,8 +9,8 @@ configuration:
 source:
   image:
     docker_image:
-    - name: node:6
-      tag: latest
+    - name: node
+      tag: 6
     ami:
     - id: ami-940cdceb
       region: ap-northeast-1
