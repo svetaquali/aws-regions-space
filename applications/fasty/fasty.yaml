@@ -6,6 +6,8 @@ configuration:
     script: fasty-cm.sh
   start:
     script: fasty-cm-command.sh
+inputs:
+- INSTANCETYPE: t2.micro,t3.micro,t3.small,t2.small
 source:
   image:
     docker_image:
@@ -47,7 +49,7 @@ infrastructure:
   compute:
     spec:
       aws:
-        instance_type: t2.micro
+        instance_type: $INSTANCETYPE
   connectivity:
     external:
     - port_info:
