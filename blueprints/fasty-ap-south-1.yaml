@@ -5,5 +5,5 @@ kind: blueprint
 applications:
 - fasty:
   input_values:
-  - INSTANCETYPE: t2.micro, t2.small, t2.medium
+  - INSTANCETYPE: "t2.micro, t2.small, t2.medium"
 spec_version: 1
