@@ -3,5 +3,5 @@ clouds:
 environmentType: sandbox
 kind: blueprint
 applications:
-- fasty
+- no-config-script-app
 spec_version: 1

@@ -1,7 +1,7 @@
 clouds:
-- aws: ap-southeast-2
+- aws: ap-northeast-2
 environmentType: sandbox
 kind: blueprint
 applications:
-- fasty
+- no-config-script-app
 spec_version: 1
