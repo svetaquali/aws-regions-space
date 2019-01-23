@@ -1,7 +1,7 @@
 clouds:
-- aws: us-west-1
+- aws: us-east-2
 environmentType: sandbox
 kind: blueprint
 applications:
-- fasty
+- no-config-script-app
 spec_version: 1
