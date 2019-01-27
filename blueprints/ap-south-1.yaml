@@ -3,7 +3,7 @@ clouds:
 environmentType: sandbox
 kind: blueprint
 applications:
-- fasty:
+- no-config-script-app:
     input_values:
     - INSTANCETYPE: t2.micro,t2.small,t2.medium
 spec_version: 1
