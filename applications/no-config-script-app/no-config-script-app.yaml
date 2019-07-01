@@ -1,7 +1,7 @@
 configuration:
   healthcheck:
     script: no-config-script-app-hc.sh
-    timeout: 200
+    timeout: 420
   start:
     script: no-config-script-app-cm-command.sh
 source:
