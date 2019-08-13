@@ -49,7 +49,7 @@ infrastructure:
       aws:
         instance_type: $INSTANCETYPE
 inputs:
-- INSTANCETYPE: t3.medium
+- INSTANCETYPE: t2.micro
 kind: application
 spec_version: 1
 debugging:
